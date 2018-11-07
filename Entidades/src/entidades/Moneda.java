@@ -9,7 +9,7 @@ package entidades;
  *
  * @author Emanuel Álvarez
  */
-class Moneda {
+public class Moneda {
     private int cantidad;
     private int cantidadInicialDia;
     private Denominacion denominacion;
