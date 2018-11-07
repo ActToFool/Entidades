@@ -9,7 +9,7 @@ package entidades;
  *
  * @author Emanuel Álvarez
  */
-class Linea {
+public class Linea {
     
     private int cantidad;
     private Producto productoVendido;
