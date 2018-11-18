@@ -12,6 +12,7 @@ package entidades;
 public abstract class Producto {
     
     private int numero;
+    private String nombre;
     private int unidadesDisponibles;
     
     //Hay que preguntarle al profesor si es abstracto o no
@@ -20,9 +21,18 @@ public abstract class Producto {
     public Producto() {
     }
 
-    public Producto(int numero, int unidadesDisponibles) {
+    public Producto(int numero, String nombre, int unidadesDisponibles) {
         this.numero = numero;
+        this.nombre = nombre;
         this.unidadesDisponibles = unidadesDisponibles;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public int getNumero() {

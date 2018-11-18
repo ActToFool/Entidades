@@ -22,8 +22,8 @@ public class Bebida extends Producto{
     public Bebida() {
     }
 
-    public Bebida(int litros, float valorLitro, int numero, int unidadesDisponibles) {
-        super(numero, unidadesDisponibles);
+    public Bebida(int litros, float valorLitro, int numero, String nombre, int unidadesDisponibles) {
+        super(numero, nombre, unidadesDisponibles);
         this.litros = litros;
         this.valorLitro = valorLitro;
     }
