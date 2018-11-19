@@ -22,6 +22,13 @@ public class Bebida extends Producto{
     public Bebida() {
     }
 
+    public Bebida(int litros, float valorLitro, int numero, String nombre, int unidadesDisponibles, TipoProducto tipo) {
+        super(numero, nombre, unidadesDisponibles, tipo);
+        this.litros = litros;
+        this.valorLitro = valorLitro;
+    }
+
+    
     public Bebida(int litros, float valorLitro, int numero, String nombre, int unidadesDisponibles) {
         super(numero, nombre, unidadesDisponibles);
         this.litros = litros;

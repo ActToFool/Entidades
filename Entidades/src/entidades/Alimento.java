@@ -22,6 +22,12 @@ public class Alimento extends Producto {
     public Alimento() {
     }
 
+    public Alimento(int gramos, float valorGramo, int numero, String nombre, int unidadesDisponibles, TipoProducto tipo) {
+        super(numero, nombre, unidadesDisponibles, tipo);
+        this.gramos = gramos;
+        this.valorGramo = valorGramo;
+    }
+    
     public Alimento(int gramos, float valorGramo, int numero, String nombre, int unidadesDisponibles) {
         super(numero, nombre, unidadesDisponibles);
         this.gramos = gramos;
