@@ -38,6 +38,8 @@ public class Linea {
         this.productoVendido = productoVendido;
     }
     
-    
+    public void agregarCantidad(int cantidad){
+        this.cantidad+=cantidad;
+    }
     
 }
