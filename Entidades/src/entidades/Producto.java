@@ -14,7 +14,6 @@ public abstract class Producto {
     private int numero;
     private String nombre;
     private int unidadesDisponibles;
-    private TipoProducto tipo;
     
     //Hay que preguntarle al profesor si es abstracto o no
     public abstract double calcularValor();
@@ -51,21 +50,4 @@ public abstract class Producto {
     public void setUnidadesDisponibles(int unidadesDisponibles) {
         this.unidadesDisponibles = unidadesDisponibles;
     }
-
-    public Producto(int numero, String nombre, int unidadesDisponibles, TipoProducto tipo) {
-        this.numero = numero;
-        this.nombre = nombre;
-        this.unidadesDisponibles = unidadesDisponibles;
-        this.tipo = tipo;
-    }
-
-    public TipoProducto getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(TipoProducto tipo) {
-        this.tipo = tipo;
-    }
-    
-    
 }
