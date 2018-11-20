@@ -50,4 +50,10 @@ public abstract class Producto {
     public void setUnidadesDisponibles(int unidadesDisponibles) {
         this.unidadesDisponibles = unidadesDisponibles;
     }
+
+    @Override
+    public String toString() {
+        return "Producto{" + "numero=" + numero + ", nombre=" + nombre + ", unidadesDisponibles=" + unidadesDisponibles + '}';
+    }
+    
 }

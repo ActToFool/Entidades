@@ -43,9 +43,10 @@ public class Alimento extends Producto {
     public void setValorGramo(float valorGramo) {
         this.valorGramo = valorGramo;
     }
-    
-    
 
-    
-    
+    @Override
+    public String toString() {
+        return "Alimento{" + "gramos=" + gramos + ", valorGramo=" + valorGramo +super.toString()+"}";
+    }
+       
 }

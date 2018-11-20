@@ -43,6 +43,11 @@ public class Bebida extends Producto{
     public void setValorLitro(float valorLitro) {
         this.valorLitro = valorLitro;
     }
+
+    @Override
+    public String toString() {
+        return "Bebida{" + "litros=" + litros + ", valorLitro=" + valorLitro +super.toString()+"}";
+    }
     
     
     
